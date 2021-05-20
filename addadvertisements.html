@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advertisement</title>
+    <style>
+        body {
+        background-image:im2.jpg;
+        background-color:#faf3f2;
+                }
+        </style>
+     <link href="style.css" type="text/css" rel="stylesheet"><!-- external css--!>
+        <body style="background-color:#2e5587;>
+</head>
+ <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="im3.jpg" alt="im3" class="im3">
+      </div>
+
+       <div class="container">
+        <label for="aid"><b>Advertisement ID</b></label>
+          <input type="text" placeholder="Enter Advertisement ID" name="aid" required>
+         <label for="des"><b>Advertisement Description</b></label>
+           <input type="text" placeholder="Enter Advertisement Descriptions" name="des" required>
+           <label for="img"><b>Ad Images</b></label>
+             <input type="file" placeholder="Upload Ad Images" name="img" required>
+           <label for="Time"><b>Time</b></label>
+             <input type="time" placeholder=" Time" name="News" required>
+           <label for="Status"><b>Status of Add</b></label>
+            <input type="status" placeholder="" name="status of ad" required>
+           <button type="submit">Submit</button>
+      <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+ </body>
+</html>
