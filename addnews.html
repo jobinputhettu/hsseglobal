@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddNews</title>
+     <link href="style.css" type="text/css" rel="stylesheet"><!-- external css--!>
+
+</head>
+<body style="background-color:#545454;>
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="im6.jpg" alt="im6" class="im6">
+      </div>
+
+       <div class="container">
+        <label for="nid"><b>News ID</b></label>
+          <input type="text" placeholder="Enter News ID" name="nid" required>
+         <label for="cid"><b>Category ID</b></label>
+           <input type="text" placeholder="Enter Category ID" name="cid" required>
+           <label for="sid"><b>Sub Category ID</b></label>
+             <input type="text" placeholder="Enter Sub Category ID" name="sid" required>
+           <label for="News"><b>News</b></label>
+             <input type="text" placeholder="Enter News" name="News" required>
+           <label for="img"><b>News Images</b></label>
+            <input type="file" placeholder="Enter News Images" name="News Images" required>
+           <button type="submit">Submit</button>
+      <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+ </body>
+</html>
